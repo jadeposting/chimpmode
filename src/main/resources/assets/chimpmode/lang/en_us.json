@@ -1,0 +1,9 @@
+{
+  "text.autoconfig.chimpmode.title": "Chimpmode Options",
+
+  "text.autoconfig.chimpmode.option.hideOffhandItems": "Hide Offhand Items",
+  "text.autoconfig.chimpmode.option.hideOffhandItems.@Tooltip": "Completely hide offhand items from rendering",
+
+  "text.autoconfig.chimpmode.option.offHandItemScale": "Offhand Item Scale",
+  "text.autoconfig.chimpmode.option.offHandItemScale.@Tooltip": "Change the scale of offhand items"
+}

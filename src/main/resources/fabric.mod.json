@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "chimpmode",
+  "version": "${version}",
+  "name": "CHIMPMODE",
+  "description": "assortment of random quality of life features that i wanted",
+  "authors": ["jadeposting"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/chimpmode",
+    "sources": "https://github.com/jadeposting/chimpmode",
+    "issues": "https://github.com/jadeposting/chimpmode/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/chimpmode/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.jadeposting.chimpmode.Chimpmode"
+    ],
+    "modmenu": [
+      "dev.jadeposting.chimpmode.modmenu.ChimpmodeModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "chimpmode.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}",
+    "cloth-config": ">=18.0.145"
+  },
+  "recommends": {
+    "modmenu": ">=14.0.0"
+  }
+}
