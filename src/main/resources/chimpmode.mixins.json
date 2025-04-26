@@ -4,8 +4,10 @@
   "package": "dev.jadeposting.chimpmode.mixins",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "ItemInHandRendererMixin_CancelOffhandRender",
-    "ItemInHandRendererMixin_ScaleOffhandItem"
+    "offhand.ItemInHandRendererMixin_CancelOffhandRender",
+    "offhand.ItemInHandRendererMixin_ScaleOffhandItem",
+    "toolactions.AxeItemMixin_DisableLogStripping",
+    "toolactions.ShovelItemMixin_DisablePathing"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -1,4 +1,4 @@
-package dev.jadeposting.chimpmode.mixins;
+package dev.jadeposting.chimpmode.mixins.offhand;
 
 import com.llamalad7.mixinextras.injector.ModifyExpressionValue;
 import dev.jadeposting.chimpmode.config.ChimpConfig;

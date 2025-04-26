@@ -1,9 +1,16 @@
 {
   "text.autoconfig.chimpmode.title": "Chimpmode Options",
+  "text.autoconfig.chimpmode.category.default": "General",
 
+  "text.autoconfig.chimpmode.category.offhand": "Offhand",
   "text.autoconfig.chimpmode.option.hideOffhandItems": "Hide Offhand Items",
   "text.autoconfig.chimpmode.option.hideOffhandItems.@Tooltip": "Completely hide offhand items from rendering",
-
   "text.autoconfig.chimpmode.option.offHandItemScale": "Offhand Item Scale",
-  "text.autoconfig.chimpmode.option.offHandItemScale.@Tooltip": "Change the scale of offhand items"
+  "text.autoconfig.chimpmode.option.offHandItemScale.@Tooltip": "Change the scale of offhand items",
+
+  "text.autoconfig.chimpmode.category.toolActions": "Tool Actions",
+  "text.autoconfig.chimpmode.option.disableShovelPathing": "Disable Shovel Pathing",
+  "text.autoconfig.chimpmode.option.disableShovelPathing.@Tooltip": "Stops creating paths when right clicking with a shovel",
+  "text.autoconfig.chimpmode.option.disableLogStripping": "Disable Log Stripping",
+  "text.autoconfig.chimpmode.option.disableLogStripping.@Tooltip": "Stops stripping logs when right clicking with an axe"
 }

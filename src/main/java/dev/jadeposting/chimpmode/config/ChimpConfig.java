@@ -14,11 +14,21 @@ public class ChimpConfig implements ConfigData {
     private static ConfigHolder<ChimpConfig> configHolder;
 
     @ConfigEntry.Gui.Tooltip
+    @ConfigEntry.Category("offhand")
     public boolean hideOffhandItems;
 
     @ConfigEntry.Gui.Tooltip
+    @ConfigEntry.Category("offhand")
     @ConfigEntry.BoundedDiscrete(min = 1, max = 100)
     public int offHandItemScale = 100;
+
+    @ConfigEntry.Gui.Tooltip
+    @ConfigEntry.Category("toolActions")
+    public boolean disableShovelPathing;
+
+    @ConfigEntry.Gui.Tooltip
+    @ConfigEntry.Category("toolActions")
+    public boolean disableLogStripping;
 
     public static void register() {
         if (configHolder != null) throw new IllegalStateException("ChimpConfig has already been initialized.");

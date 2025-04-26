@@ -1,4 +1,4 @@
-package dev.jadeposting.chimpmode.mixins;
+package dev.jadeposting.chimpmode.mixins.offhand;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import dev.jadeposting.chimpmode.config.ChimpConfig;
